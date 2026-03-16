@@ -2,6 +2,10 @@ body {
   text-align: center;
 }
 
+main {
+  background: linear-gradient(to bottom, #cc5500, #1a1a1a, #ff7e29);
+  padding: 40px 0;
+}
 
 .banner {
     position: relative;
