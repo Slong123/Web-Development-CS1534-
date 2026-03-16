@@ -4,7 +4,8 @@ body {
 
 
 main {
-
+  padding: 40px 0;
+  min-height: 100vh;
   position: relative;
   background: linear-gradient(
     to bottom,
@@ -14,8 +15,6 @@ main {
     #5a2a00 75%,
     #0d0d0d 100%
   );
-  padding: 40px 0;
-  min-height: 100vh;
 
 }
 
@@ -25,7 +24,9 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  high: auto;
+  height: auto;
+  z-index: 1;
+
 }
 
 .banner {
@@ -51,9 +52,16 @@ main {
 }
 
 .textBox {
+    position: relative;
     max-width: 900px;
     margin: 0 auto;
     font-size: 19px;
+}
+
+section {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 200px;
 }
 
 
