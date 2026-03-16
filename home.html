@@ -5,6 +5,17 @@
 body {
   text-align: center;
 }
+
+.banner {
+    position: relative;
+}
+.bannerText {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+}
 </style>
 
 
@@ -17,13 +28,18 @@ body {
 
    <header>
 
-    
-    <img src="kemptonparkbanner.jfif" width="100%" alt="Kempton Park">
-    <font face="Arial" size="6">
-    <h1>Kempton Park</h1>
-    </font>
-    <p>Welcome to my simple page</p>
-   
+      <div class="banner">
+        <img src="kemptonparkbanner.jfif" width="100%" alt="Kempton Park">
+        
+        <div class="bannerText">
+         <h1>Kempton Park</h1>
+         </font>
+         <p>Welcome to my simple page</p>
+        </div>
+
+      </div>
+
+
    </header>
 
    <main>
