@@ -13,8 +13,16 @@ main {
     #0d0d0d 100%
   );
   padding: 40px 0;
+  min-height: 100vh;
+
 }
 
+.acacia {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 300px;
+}
 
 .banner {
     position: relative;
@@ -43,3 +51,4 @@ main {
     margin: 0 auto;
     font-size: 19px;
 }
+
