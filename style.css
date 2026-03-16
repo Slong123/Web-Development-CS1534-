@@ -2,10 +2,19 @@ body {
   text-align: center;
 }
 
+
 main {
-  background: linear-gradient(to bottom, #cc5500, #1a1a1a, #ff7e29);
+  background: linear-gradient(
+    to bottom,
+    #ffd56a 0%,
+    #eca33b 25%,
+    #da710e 50%,
+    #5a2a00 75%,
+    #0d0d0d 100%
+  );
   padding: 40px 0;
 }
+
 
 .banner {
     position: relative;
